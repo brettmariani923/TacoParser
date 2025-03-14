@@ -14,7 +14,7 @@ namespace LoggingKata
         
         public ITrackable Parse(string line)
         {
-            logger.LogInfo("Begin parsing");
+            logger.LogInfo("Parsing...");
 
             // Take your line and use line.Split(',') to split it up into an array of strings, separated by the char ','
             var cells = line.Split(',');
